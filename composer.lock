@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "65e85f9f959c0b087110331754d451cf",
+    "content-hash": "4aa0269df7fc7629d6391f4e9e29b660",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1184,6 +1184,94 @@
                 }
             ],
             "time": "2025-02-03T10:55:03+00:00"
+        },
+        {
+            "name": "jazer/crud",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JLipreso/Jazer-crud.git",
+                "reference": "6110f83d526c33b41b0879aa0f0c0104b5a084d0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JLipreso/Jazer-crud/zipball/6110f83d526c33b41b0879aa0f0c0104b5a084d0",
+                "reference": "6110f83d526c33b41b0879aa0f0c0104b5a084d0",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "package",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Jazer\\Crud\\Http\\Provider\\CrudServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Jazer\\Crud\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jazer Tech Solution"
+                }
+            ],
+            "description": "Jazer package to handle crud API request",
+            "support": {
+                "issues": "https://github.com/JLipreso/Jazer-crud/issues",
+                "source": "https://github.com/JLipreso/Jazer-crud/tree/main"
+            },
+            "time": "2025-05-24T12:37:24+00:00"
+        },
+        {
+            "name": "jazer/forms",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JLipreso/Jazer-Forms.git",
+                "reference": "48f9180899f59dff6cd9f91004caaf134b5a0665"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JLipreso/Jazer-Forms/zipball/48f9180899f59dff6cd9f91004caaf134b5a0665",
+                "reference": "48f9180899f59dff6cd9f91004caaf134b5a0665",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "package",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Jazer\\Forms\\Http\\Provider\\FormsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Jazer\\Forms\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jazer Tech Solution"
+                }
+            ],
+            "description": "Jazer package to handle forms API request",
+            "support": {
+                "issues": "https://github.com/JLipreso/Jazer-Forms/issues",
+                "source": "https://github.com/JLipreso/Jazer-Forms/tree/main"
+            },
+            "time": "2025-05-21T23:45:47+00:00"
         },
         {
             "name": "laravel/framework",
@@ -8152,7 +8240,10 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {},
+    "stability-flags": {
+        "jazer/crud": 20,
+        "jazer/forms": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
