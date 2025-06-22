@@ -1235,12 +1235,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/JLipreso/Jazer-Forms.git",
-                "reference": "48f9180899f59dff6cd9f91004caaf134b5a0665"
+                "reference": "1211434cf16c82cf1a2c29f70674d9905849dc5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JLipreso/Jazer-Forms/zipball/48f9180899f59dff6cd9f91004caaf134b5a0665",
-                "reference": "48f9180899f59dff6cd9f91004caaf134b5a0665",
+                "url": "https://api.github.com/repos/JLipreso/Jazer-Forms/zipball/1211434cf16c82cf1a2c29f70674d9905849dc5a",
+                "reference": "1211434cf16c82cf1a2c29f70674d9905849dc5a",
                 "shasum": ""
             },
             "default-branch": true,
@@ -1271,7 +1271,7 @@
                 "issues": "https://github.com/JLipreso/Jazer-Forms/issues",
                 "source": "https://github.com/JLipreso/Jazer-Forms/tree/main"
             },
-            "time": "2025-05-21T23:45:47+00:00"
+            "time": "2025-06-22T04:12:42+00:00"
         },
         {
             "name": "laravel/framework",
