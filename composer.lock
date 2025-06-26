@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4aa0269df7fc7629d6391f4e9e29b660",
+    "content-hash": "ff8fe2ddf10bb57e41ce44aa407bcec7",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1272,6 +1272,50 @@
                 "source": "https://github.com/JLipreso/Jazer-Forms/tree/main"
             },
             "time": "2025-06-23T14:45:47+00:00"
+        },
+        {
+            "name": "jazer/multimedia",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JLipreso/Jazer-Multimedia.git",
+                "reference": "269b7015df712eaa95d9c8f31df44459df00e531"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JLipreso/Jazer-Multimedia/zipball/269b7015df712eaa95d9c8f31df44459df00e531",
+                "reference": "269b7015df712eaa95d9c8f31df44459df00e531",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "package",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Jazer\\Multimedia\\Http\\Provider\\MultimediaServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Jazer\\Multimedia\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jazer Tech Solution"
+                }
+            ],
+            "description": "Jazer package to handle multimedia API request",
+            "support": {
+                "issues": "https://github.com/JLipreso/Jazer-Multimedia/issues",
+                "source": "https://github.com/JLipreso/Jazer-Multimedia/tree/main"
+            },
+            "time": "2025-06-26T01:45:11+00:00"
         },
         {
             "name": "laravel/framework",
@@ -8242,7 +8286,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "jazer/crud": 20,
-        "jazer/forms": 20
+        "jazer/forms": 20,
+        "jazer/multimedia": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
